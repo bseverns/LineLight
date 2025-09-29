@@ -19,7 +19,7 @@ static const uint8_t PIN_PWM   = 9;    // Timer1 OC1A output → MOSFET gate dri
 // -----------------------------------------------------------------------------
 // FFT / DSP constants — tuned for a 9.6 kHz sample rate which plays nicely with the loop timing.
 // -----------------------------------------------------------------------------
-static const uint16_t FFT_BIN_COUNT = 256;            // Power-of-two for the library FFT.
+static const uint16_t FFT_BIN_COUNT = 128;            // 128 keeps the double buffers under 2 KB SRAM on the Pro Mini.
 static const float    SAMPLE_RATE_HZ = 9600.0f;       // Set by our crude spin-wait sampler.
 static const uint32_t SAMPLE_PERIOD_US =              // Microseconds between samples.
     static_cast<uint32_t>(1000000.0f / SAMPLE_RATE_HZ + 0.5f);

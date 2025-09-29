@@ -24,7 +24,8 @@ flowchart TD
 ```
 
 - **Sampler** holds timing steady without ISRs so the analog porch can be debugged in isolation.
-- **FFT core** uses `arduinoFFT` with a Hann window you can audit in ROM.
+- **FFT core** uses `arduinoFFT` with a Hann window you can audit in ROM. 128-point frames stay inside the Pro Mini's
+  2 KB SRAM while still giving ~75 Hz bin spacing at 9.6 kHz sampling.
 - **Band picker** translates the panel knobs into bin ranges with guard rails.
 - **AGC + EMA** does the vibe-polishing—no hard clipping, no drama.
 - **Gamma mapper** makes LED brightness feel linear to human eyes.

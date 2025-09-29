@@ -3,7 +3,8 @@
 This is the quickest path to a reliable prototype. Keep leads short and star‑ground power returns.
 
 ## 1) Parts
-- Arduino Pro Micro (5 V, 16 MHz, ATmega32u4)
+- SparkFun Pro Mini (5 V, 16 MHz, ATmega328P)
+- SparkFun FTDI Basic (5 V) or equivalent 6-pin USB‑serial adapter
 - MCP6002 (dual RRIO op‑amp) + socket
 - TRS jacks (in/out) or 3.5 mm equivalents
 - Film cap 1 µF, ceramics 1 nF, electrolytics 10–100 µF
@@ -45,6 +46,7 @@ Notes:
 - Add a TVS (e.g., SMAJ18A) on 12 V if you expect hot‑plugging.
 
 ## 6) Flash & test
+- Wire the FTDI Basic: DTR→RESET, TXO→RXI, RXI→TXO, VCC→VCC (5 V), CTS→GND.
 - `pio run -t upload`
 - Open serial monitor @115200. You should see bin edges and levels once per second.
 - Sweep the knobs and watch the frequency readout change.

@@ -12,7 +12,7 @@
 
 (text "Audio I/O (TRS/through)" (at 20.00 20.00 0) (effects (font (size 2.2 2.2))))
 (text "Op-Amp envelope detector + bias" (at 20.00 60.00 0) (effects (font (size 2.2 2.2))))
-(text "ADC → Pro Micro 5V" (at 120.00 60.00 0) (effects (font (size 2.2 2.2))))
+(text "ADC → Pro Mini 5V" (at 120.00 60.00 0) (effects (font (size 2.2 2.2))))
 (text "Lamp driver (logic-level N-MOSFET)" (at 120.00 20.00 0) (effects (font (size 2.2 2.2))))
 (text "User controls (pots set FFT window)" (at 20.00 100.00 0) (effects (font (size 2.2 2.2))))
 (symbol (lib_id "power:+12V") (at 145.00 14.00 0) (unit 1)
@@ -432,7 +432,7 @@
 (polyline (pts (xy 15.00 95.00) (xy 105.00 95.00) (xy 105.00 122.00) (xy 15.00 122.00) (xy 15.00 95.00)) (stroke (width 0.1524) (type solid)) (uuid 3f23d0bd-0360-4b7e-8969-a2853c7a1ee1))
 (text "Finish by wiring pins to labels on a 2.54 mm grid.
 Annotate, then Assign Footprints.
-Pro Micro pins: map A0, D9, +5V, GND accordingly." (at 110.00 96.00 0) (effects (font (size 1.4 1.4))))
+Pro Mini pins: map A0, D9, +5V, GND accordingly." (at 110.00 96.00 0) (effects (font (size 1.4 1.4))))
   (path
     "/"
     (page "1")

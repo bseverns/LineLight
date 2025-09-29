@@ -1,0 +1,18 @@
+qty,designator,description,example_part,notes
+1,U1,Arduino Pro Micro 5V/16MHz,SparkFun Pro Micro 5V,USB‑native MCU
+1,U2,Dual RRIO op‑amp,MCP6002,Audio buffer and bias amp
+2,J1/J2,TRS audio jacks,Neutrik/Rean,,IN/OUT
+1,Q1,Logic‑level N‑MOSFET,AO3400/IRLZ44N,LED lamp driver
+1,MOD1,Buck 12V→5V,MP1584 module,≥1A
+1,LED1,12V LED lamp/COB/strip,Generic,1–10W range
+2,Rsum,1k 1%,Any,Left/Right summing
+1,Rshunt,10k 1%,Any,Sum node to GND
+2,Rbias,100k 1%,Any,VCC/2 divider
+1,Radc,10k 1%,Any,Series to ADC
+1,Ccouple,1uF film,Any,AC‑coupling
+1,Cadc,1nF C0G,Any,Anti‑alias at ADC
+2,Dclamp,BAT54S or BAT54,Diodes Inc.,ADC clamps
+1,Rg,100Ω 1%,Any,MOSFET gate
+1,Rpd,100k 1%,Any,MOSFET gate pulldown
+2,VR1/VR2,10k–50k lin pots,Alpha/Bourns,Band select
+1,TVS,12V rail TVS,SMAJ18A,Optional protection

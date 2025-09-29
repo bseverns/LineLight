@@ -1,0 +1,7 @@
+CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)
+
+This is a placeholder pointing to the full text:
+https://ohwr.org/cern_ohl_s_v2.txt
+
+Include the complete license text in production repositories. For prototyping,
+this placeholder indicates intent to license hardware under CERN‑OHL‑S v2.0.

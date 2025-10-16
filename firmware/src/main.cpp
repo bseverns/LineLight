@@ -3,7 +3,7 @@
 //
 // This file intentionally reads like a tour guide. Every stage is annotated so you can hand it to a
 // manufacturing test tech, a firmware intern, or future-you and they all get the "why" as well as the "what".
-// Nothing here is "magic"—the punk ethos is transparency.
+// Nothing here is "magic"—the ethos is transparency.
 
 #include <Arduino.h>
 #include <arduinoFFT.h>

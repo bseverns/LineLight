@@ -1,6 +1,6 @@
 # LineLight-1 Production Kit
 
-Welcome to the gutsy little repo that makes a band-responsive lamp glow on cue. You're in the right place if you want to build, audit, or remix LineLight-1 for production deployment.
+Welcome to the gutsy little repo that makes a band-responsive lamp glow on cue. You're in the right place if you want to build, audit, or remix LineLight-1 for production deployment and some learning.
 
 ## How to Use This Repo
 - **Need the concept sketch?** Hit [`docs/README.md`](docs/README.md) for the full story, signal path, and ethics.
